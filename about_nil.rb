@@ -29,10 +29,10 @@ class AboutNil < Neo::Koan
     # THINK ABOUT IT:
     #
     # Is it better to use
-    #    obj.nil?
+    #    obj.nil? <-- this
     # or
     #    obj == nil
-    # Why?
+    # Why? More expressive and nil can also be redefined, causing trouble with comparisons
   end
 
 end
