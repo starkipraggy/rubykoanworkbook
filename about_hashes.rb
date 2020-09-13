@@ -55,7 +55,7 @@ class AboutHashes < Neo::Koan
     assert_equal 2, hash.keys.size
     assert_equal true, hash.keys.include?(:one)
     assert_equal true, hash.keys.include?(:two)
-    assert_equal String, hash.keys.class
+    assert_equal Array, hash.keys.class
   end
 
   def test_hash_values
