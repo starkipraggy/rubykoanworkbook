@@ -98,4 +98,6 @@ class AboutSymbols < Neo::Koan
   # THINK ABOUT IT:
   #
   # Why is it not a good idea to dynamically create a lot of symbols?
+  # Once initialized, it takes awhile to be garbage collected?
+  # If not used often it's a waste of memory space
 end
