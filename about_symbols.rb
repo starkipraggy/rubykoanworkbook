@@ -32,6 +32,7 @@ class AboutSymbols < Neo::Koan
   #
   # Why do we convert the list of symbols to strings and then compare
   # against the string value rather than against symbols?
+  # internal representation of symbols is likely not a string value so there is no readable way to check if you have the right symbol
 
   in_ruby_version("mri") do
     RubyConstant = "What is the sound of one hand clapping?"
