@@ -149,7 +149,8 @@ class AboutRegularExpressions < Neo::Koan
   # THINK ABOUT IT:
   #
   # Explain the difference between a character class ([...]) and alternation (|).
-
+  #
+  # character class only works for one character. alternation works for the entire group
   # ------------------------------------------------------------------
 
   def test_scan_is_like_find_all
