@@ -15,6 +15,8 @@
 #
 def triangle(a, b, c)
   # WRITE THIS CODE
+  sortedArray = [a, b, c].sort
+  raise TriangleError if sortedArray[0] <= 0 || sortedArray[0] + sortedArray[1] <= sortedArray[2] 
   if a == b && b == c 
     return :equilateral
   elsif a == b || a == c || b == c
